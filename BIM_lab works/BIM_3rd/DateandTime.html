@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Current Date and Time</h2>
+    <p id="date"></p>
+    <p id="time"></p>
+    <script>
+        const date = new Date();
+        const currentDate = date.toDateString();
+        const currentTime = date.toLocaleTimeString();
+
+       
+        // Log to console
+        console.log(`Date: ` + currentDate);
+        console.log(`Time: ` + currentTime);
+    </script>
+
+</body>
+</html>
