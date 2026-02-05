@@ -1,0 +1,33 @@
+Router>enable
+Router#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#access-list 15 deny 192.168.10.11//router mai deny garna kojirako
+Router(config)#access-list 15 permit any//aru alai allow garni
+Router(config)#interface gigabitethernet 0/0
+Router(config-if)#no shutdown
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+
+Router(config-if)#ip address 192.168.10.1 255.255.255.0
+Router(config-if)#exit
+Router(config)#interface gigabitethernet 0/1
+Router(config-if)#ip address 192.168.20.1 255.255.255.0
+Router(config-if)#no shutdown
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+
+Router(config-if)#exit
+Router(config)#
+
+failed garna:
+Router(config-if)#exit
+Router(config)#interface gigabitethernet 0/0
+Router(config-if)#ip access-group 15 in
+Router(config-if)#
+pc1 to pc2 pani scuesss
