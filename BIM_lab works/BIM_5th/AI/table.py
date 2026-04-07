@@ -5,7 +5,7 @@ import re
 def implies(p, q):
     return (not p) or q
 
-# Convert symbols to Python format
+# Convert symbols to Python format 
 def convert_symbols(expr):
     expr = expr.replace('^', ' and ')
     expr = expr.replace('v', ' or ')
