@@ -1,0 +1,3 @@
+Shikshya,60000
+Sudi,30000
+man,80000
