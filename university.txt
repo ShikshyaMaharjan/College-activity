@@ -1,3 +1,0 @@
-NCCS,Address:Paknajol,Faculty no:3
-Prime College,Address:Nayabazar,Faculty no:3
-BMITI,Address:Tahachal,Faculty no:3

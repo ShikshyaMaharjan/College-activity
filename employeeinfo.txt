@@ -1,3 +1,0 @@
-Ram,101,Nccs College,Manager
-Aarya,102,Prime College,CEO
-Shikshya,103,Nccs College,BOD
