@@ -1,2 +1,2 @@
-s=input("Enter the string:")
-print("Last three character:",s[-3])
+s = input("Enter the string:")
+print("Last three characters:", s[-3:])

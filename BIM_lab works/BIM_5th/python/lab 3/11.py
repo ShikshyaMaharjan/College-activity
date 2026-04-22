@@ -1,12 +1,11 @@
-name="shikshya"
-age=21
-height=5.7
-print("=== String Formatting Examples ===\n")
-print("1. Using % formatting:")
-print("Name:%s,Age:%d,Height:%.1f ft"%(name,age,height))
+name = "Nikisha"
+age = 20
 
-print("\n2. Using str.format():")
-print("Name:{},Age: {}, Height:{:.1f} ft,".format(name,age,height))
+# % formatting
+print("My name is %s and I am %d years old." % (name, age))
 
-print("\n3. Using f-strings:")
-print(f"Name: {name},Age:{age},Height:{height:.1f} ft")
+# .format()
+print("My name is {} and I am {} years old.".format(name, age))
+
+# f-string
+print(f"My name is {name} and I am {age} years old.")

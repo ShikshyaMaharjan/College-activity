@@ -1,9 +1,13 @@
-import copy 
-original =[[1,2],[3,4]]
-shallow_copy=copy.copy(original)
-deep_copy=copy.deepcopy(original)
-shallow_copy[0][0]=99
-deep_copy[1][1]=88
-print("Original:",original)
-print("Shallow copy:",shallow_copy)
-print("Deep copy:",deep_copy)
+import copy
+
+list1 = [[1, 2], [3, 4]]
+
+# Shallow copy
+shallow_copy = list1.copy()
+
+# Deep copy
+deep_copy = copy.deepcopy(list1)
+
+print("Original:", list1)
+print("Shallow Copy:", shallow_copy)
+print("Deep Copy:", deep_copy)

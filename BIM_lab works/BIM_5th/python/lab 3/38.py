@@ -1,0 +1,11 @@
+set={10,20,30,50}
+print("Original sets:",set)
+set.add(40)
+print("Added(40):",set)
+set.remove(20)
+print("Removed(20):",set)
+set.discard(50)
+print("Discared(50):",set)
+remove=set.pop()
+print("popped number from the set:",remove)
+print("final set",set)

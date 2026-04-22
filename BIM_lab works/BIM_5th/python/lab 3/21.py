@@ -1,5 +1,8 @@
-lst=[1,5,1,4,8,7,1,4]
-a=sorted(lst)
-print("sorted:",a)
-b=lst.sort()
-print("Sort:",lst)
+numbers = [5, 2, 9, 1, 7]
+
+sorted_list = sorted(numbers)
+print("Original list:", numbers)
+print("Sorted using sorted():", sorted_list)
+
+numbers.sort()
+print("Sorted using sort():", numbers)

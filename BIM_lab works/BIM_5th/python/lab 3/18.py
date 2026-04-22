@@ -1,8 +1,17 @@
-a=[1,2,3,4,5]
-a.pop(1)
-print(a)
-a.append(6)
-print(a)
-a.insert(1,9)
-a.remove(5)
-print(a)
+lst = [10, 20, 30]
+print("Original list:", lst)
+
+lst.append(40)
+print("Appended:", lst)
+
+lst.insert(1, 15)
+print("Inserted:", lst)
+
+lst.remove(30)
+print("Removed:", lst)
+
+lst.pop()
+print("Popped:", lst)
+
+del lst[0]
+print("Deleted:", lst)
